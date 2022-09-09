@@ -1,4 +1,4 @@
-module "s3-bucket_notification" {
-  source  = "app.terraform.io/INSTRUQT1/s3-bucket/aws//modules/notification"
-  version = "1.0.0"
+module "s3-bucket" {
+  source  = "terraform-aws-modules/s3-bucket/aws"
+  version = "3.4.0"
 }
